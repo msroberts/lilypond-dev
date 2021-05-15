@@ -1,0 +1,5 @@
+#!/bin/bash
+
+mkdir .tmp
+curl https://lilypond.org/download/binaries/linux-64/lilypond-2.22.1-1.linux-64.sh > .tmp/lilypond-install.sh
+sh .tmp/lilypond-install.sh --batch
